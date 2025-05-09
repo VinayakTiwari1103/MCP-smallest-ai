@@ -5,6 +5,7 @@ A Model Context Protocol (MCP) server implementation for Smallest.ai API integra
 ## Architecture
 
 ### System Overview
+![Untitled-2025-03-21-0340(6)](https://github.com/user-attachments/assets/76cddefa-5ff6-4c1f-b3f5-55ea91393fbe)
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │                 │     │                 │     │                 │
