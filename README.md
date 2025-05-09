@@ -3,6 +3,10 @@
 
 A Model Context Protocol (MCP) server implementation for Smallest.ai API integration. This project provides a standardized interface for interacting with Smallest.ai's knowledge base management system.
 
+<a href="https://glama.ai/mcp/servers/@VinayakTiwari1103/MCP-smallest-ai">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@VinayakTiwari1103/MCP-smallest-ai/badge" alt="MCP-Smallest.ai MCP server" />
+</a>
+
 ## Architecture
 
 ### System Overview
