@@ -1,3 +1,4 @@
+![image](https://i.imgur.com/TJ2tT4g.png)   
 # MCP-Smallest.ai
 
 A Model Context Protocol (MCP) server implementation for Smallest.ai API integration. This project provides a standardized interface for interacting with Smallest.ai's knowledge base management system.
