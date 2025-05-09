@@ -2,6 +2,77 @@
 
 A Model Context Protocol (MCP) server implementation for Smallest.ai API integration. This project provides a standardized interface for interacting with Smallest.ai's knowledge base management system.
 
+## Architecture
+
+### System Overview
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│                 │     │                 │     │                 │
+│  Client App     │◄────┤   MCP Server    │◄────┤  Smallest.ai    │
+│                 │     │                 │     │    API          │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+### Component Details
+
+#### 1. Client Application Layer
+- Implements MCP client protocol
+- Handles request formatting
+- Manages response parsing
+- Provides error handling
+
+#### 2. MCP Server Layer
+- **Protocol Handler**
+  - Manages MCP protocol communication
+  - Handles client connections
+  - Routes requests to appropriate tools
+
+- **Tool Implementation**
+  - Knowledge base management tools
+  - Parameter validation
+  - Response formatting
+  - Error handling
+
+- **API Integration**
+  - Smallest.ai API communication
+  - Authentication management
+  - Request/response handling
+
+#### 3. Smallest.ai API Layer
+- Knowledge base management
+- Data storage and retrieval
+- Authentication and authorization
+
+### Data Flow
+```
+1. Client Request
+   └─► MCP Protocol Validation
+       └─► Tool Parameter Validation
+           └─► API Request Formation
+               └─► Smallest.ai API Call
+                   └─► Response Processing
+                       └─► Client Response
+```
+
+### Security Architecture
+```
+┌─────────────────┐
+│  Client Auth    │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│  MCP Validation │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│  API Auth       │
+└────────┬────────┘
+         │
+┌────────▼────────┐
+│  Smallest.ai    │
+└─────────────────┘
+```
+
 ## Overview
 
 This project implements an MCP server that acts as a middleware between clients and the Smallest.ai API. It provides a standardized way to interact with Smallest.ai's knowledge base management features through the Model Context Protocol.
