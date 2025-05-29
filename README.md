@@ -269,6 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [Smallest.ai API](https://smallest.ai)
-
 - [Bun Runtime](https://bun.sh)
+
+
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vinayaktiwari1103-mcp-smallest-ai-badge.png)](https://mseep.ai/app/vinayaktiwari1103-mcp-smallest-ai)
