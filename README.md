@@ -1,4 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vinayaktiwari1103-mcp-smallest-ai-badge.png)](https://mseep.ai/app/vinayaktiwari1103-mcp-smallest-ai)
 
 ![image](https://i.imgur.com/TJ2tT4g.png)   
 # MCP-Smallest.ai
@@ -271,3 +270,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [Smallest.ai API](https://smallest.ai)
 - [Bun Runtime](https://bun.sh)
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vinayaktiwari1103-mcp-smallest-ai-badge.png)](https://mseep.ai/app/vinayaktiwari1103-mcp-smallest-ai)
